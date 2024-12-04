@@ -41,6 +41,15 @@ function showQuestion() {
 function handleAnswer(selectedOption) {
     const questionData = questions[currentQuestionIndex];
     const feedback = document.getElementById("feedback");
+    const buttons = document.querySelectorAll("#options-box button");
+
+    //Disable all buttons to prevent further clicks when a button has been selected
+    buttons.forEach(button => {
+        button.disabled = true;
+        if(button.innerText === selectedOption) {
+            button.style.backgroundColor = selectedOption === questionData.answer ? "green" : "red";
+        }
+    })
 
     if(selectedOption === questionData.answer) {
         feedback.innerText = "Correct";

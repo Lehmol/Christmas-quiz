@@ -1,0 +1,48 @@
+body {
+    background-image: url(pexels-thisbrandstudio-290220.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+h1 {
+    color:white;
+    font-size: 4rem;
+}
+#start-card {
+    background-color: hsla(0, 100%, 55%, 0.952);
+    width: 40vw;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 60px;
+    display: none;
+}
+#start-btn {
+    font-size: 150px;
+    border-style: none;
+    cursor: pointer;
+    background-color: transparent;
+    color: white;
+}
+#quiz-card {
+    background-color: hsla(0, 100%, 55%, 0.952);
+    width: 40vw;
+    height: 60vh;
+    border-radius: 60px;
+    display:flex;
+    flex-direction: column;
+}
+#question-box {
+    font-size: 2rem;
+}
+#options-box {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    gap: 8px;
+}

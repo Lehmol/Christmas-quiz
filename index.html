@@ -3,9 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="styles.css">
+    <title>Christmas Trivia - Linnéa Lehmann Molander</title>
 </head>
 <body>
     <h1>Christmas Trivia</h1>
+    <div id="start-card">
+        <button id="start-btn"><i class="fa-regular fa-circle-play fa-beat"></i></button>
+    </div>
+    <div id="quiz-card">
+        <p id="feedback" class="feedback"></p>
+        <p id="question-box">What's the name of the actor who's playing The Grinch?</p>
+        <div id="options-box">
+            <button class="option">Jim Carrey</button>
+            <button class="option">Linnea Molander</button>
+            <button class="option">Maya Persson</button>
+        </div>
+        <button id="next-btn"><i class="fa-solid fa-circle-arrow-right fa-beat"></i></button>
+    </div>
+    <div id="summary" class="summary" style="display: none;"></div>
 </body>
 </html>

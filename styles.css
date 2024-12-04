@@ -12,30 +12,15 @@ h1 {
     color:white;
     font-size: 4rem;
 }
-#start-card {
-    background-color: hsla(0, 100%, 55%, 0.952);
-    width: 40vw;
-    height: 60vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 60px;
-}
-#start-btn {
-    font-size: 150px;
-    border-style: none;
-    cursor: pointer;
-    background-color: transparent;
-    color: white;
-}
 #quiz-card {
     background-color: hsla(0, 100%, 55%, 0.952);
     width: 40vw;
-    height: 60vh;
+    height: auto;
     border-radius: 60px;
     display:flex;
     flex-direction: column;
     align-items: center;
+    box-shadow: 10px 10px 5px rgb(167, 166, 166);
 }
 #question-box {
     font-size: 2rem;
@@ -63,14 +48,19 @@ h1 {
     font-weight: bold;
 }
 .summary {
-    display: block;
     background-color: hsla(0, 100%, 55%, 0.952);
     width: 40vw;
     height: 60vh;
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
     border-radius: 60px;
     color: white;
     font-size: 2rem;
+}
+.feedback {
+    font-size: 2rem;
+    background-color: white;
+    border-radius: 5px;
 }

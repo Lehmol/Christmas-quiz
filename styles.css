@@ -23,7 +23,7 @@ h1 {
     box-shadow: 10px 10px 5px rgb(167, 166, 166);
 }
 #question-box {
-    font-size: 2rem;
+    font-size: 1.5rem;
 }
 #options-box {
     display: grid;

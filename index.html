@@ -1,21 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="styles.css">
-    <title>Christmas Trivia - Linnéa Lehmann Molander</title>
-</head>
-<body>
-    <h1>Christmas Trivia</h1>
-    <div id="quiz-card">
-        <p id="feedback" class="feedback"></p>
-        <p id="question-box"></p>
-        <div id="options-box"></div>
-        <button id="next-btn"><i class="fa-solid fa-circle-arrow-right fa-beat"></i></button>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Christmas trivia</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div id="start-card">
+      <h1>Christmas Trivia</h1>
+      <button id="play-btn">Play</button>
     </div>
-    <div id="summary" class="summary" style="display: none;"></div>
-    <script src="app.js"></script>
-</body>
+    <div id="question-card" class="card" style="display: none">
+      <h2 id="question-text"></h2>
+      <div id="option-container">
+        <button class="option-btn" data-option="0"></button>
+        <button class="option-btn" data-option="1"></button>
+        <button class="option-btn" data-option="2"></button>
+        <button class="option-btn" data-option="3"></button>
+      </div>
+      <div id="question-counter"></div>
+    </div>
+    <div id="results-card" class="card" style="display: none">
+      <h1>Quiz Completed!</h1>
+      <div id="score-display">
+        <p id="correct-answers"></p>
+        <p id="wrong-answers"></p>
+        <p id="final-score"></p>
+      </div>
+      <button id="play-again-btn">Play Again</button>
+    </div>
+  </body>
 </html>

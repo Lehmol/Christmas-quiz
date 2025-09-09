@@ -8,8 +8,13 @@
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <div id="start-card">
+    <div id="start-card" class="card">
       <h1>Christmas Trivia</h1>
+      <p>
+        Test your knowledge about Christmas movies, songs and traditions! Answer
+        5 festive questions and see how much you know about the most wonderful
+        time of the year.
+      </p>
       <button id="play-btn">Play</button>
     </div>
     <div id="question-card" class="card" style="display: none">
@@ -18,7 +23,6 @@
         <button class="option-btn" data-option="0"></button>
         <button class="option-btn" data-option="1"></button>
         <button class="option-btn" data-option="2"></button>
-        <button class="option-btn" data-option="3"></button>
       </div>
       <div id="question-counter"></div>
     </div>
@@ -31,5 +35,6 @@
       </div>
       <button id="play-again-btn">Play Again</button>
     </div>
+    <script src="app.js"></script>
   </body>
 </html>

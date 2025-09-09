@@ -1,31 +1,37 @@
-[
+{
+  "questions": [
     {
-        "questions": [
-            {
-                "question": "What's the name of the actor who's playing The Grinch?",
-                "options": ["Jim Carrey", "Jeff Daniels", "Adam Sandler"],
-                "answer": "Jim Carrey"
-            },
-            {
-                "question": "In the movie Elf, where does Buddy go to find his biological father?",
-                "options": ["Chrysler Building", "The Rockefeller Center", "Empire State Building"],
-                "answer": "Empire State Building"
-            },
-            {
-                "question": "What beloved Christmas song was recorded by Puerto Rican singer-songwriter José Feliciano in 1970?",
-                "options": ["Feliz Navidad", "Santa Claus Is Coming To Town", "Happy Xmas (War Is Over)"],
-                "answer": "Feliz Navidad"
-            },
-            {
-                "question": "What's the German name for the song known in English as “O Christmas Tree?",
-                "options": ["O Tannenbaum", "O Weihnachtsbaum", "O Christmas Baum"],
-                "answer": "O Tannenbaum"
-            },
-            {
-                "question": "According to the folklore of Austria and other countries, what horned figure punishes naughty children at Christmastime?",
-                "options": ["Linus", "Paulus", "Krampus"],
-                "answer": "Krampus"
-            }
-        ]
+      "question": "What's the name of the actor who's playing The Grinch?",
+      "options": ["Jim Carrey", "Jeff Daniels", "Adam Sandler"],
+      "answer": "Jim Carrey"
+    },
+    {
+      "question": "In the movie Elf, where does Buddy go to find his biological father?",
+      "options": [
+        "Chrysler Building",
+        "The Rockefeller Center",
+        "Empire State Building"
+      ],
+      "answer": "Empire State Building"
+    },
+    {
+      "question": "What beloved Christmas song was recorded by Puerto Rican singer-songwriter José Feliciano in 1970?",
+      "options": [
+        "Feliz Navidad",
+        "Santa Claus Is Coming To Town",
+        "Happy Xmas (War Is Over)"
+      ],
+      "answer": "Feliz Navidad"
+    },
+    {
+      "question": "What's the German name for the song known in English as “O Christmas Tree?",
+      "options": ["O Tannenbaum", "O Weihnachtsbaum", "O Christmas Baum"],
+      "answer": "O Tannenbaum"
+    },
+    {
+      "question": "According to the folklore of Austria and other countries, what horned figure punishes naughty children at Christmastime?",
+      "options": ["Linus", "Paulus", "Krampus"],
+      "answer": "Krampus"
     }
-]
+  ]
+}
